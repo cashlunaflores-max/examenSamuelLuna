@@ -1,0 +1,30 @@
+
+.aside {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.aside {
+  flex: 1 1 200px;
+  text-align: center;
+}
+
+.aside__title{
+  font-size: 28px;
+  margin: 30px 0;
+}
+
+.aside__link,
+.aside__subtitle {
+  margin: 7px 0;
+  display: block;
+  color: var(--color-blanco);
+  text-decoration: none;
+}
+
+.aside__link:hover {
+  color: var(--color-gris);
+}

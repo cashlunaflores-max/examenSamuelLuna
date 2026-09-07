@@ -1,0 +1,26 @@
+
+/* ===== SECCIÓN HERO ===== */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: var(--color-fondo-oscuro);
+}
+
+.hero__subtitle {
+  margin: 20px 0;
+}
+
+.hero__boton {
+  padding: 10px 20px;
+  border: 1px solid var(--color-negro);
+  background-color: var(--color-negro);
+  color: var(--color-blanco);
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  margin: 10px 0;
+}
+
+.hero__boton:hover {
+  background-color: transparent;
+  color: var(--color-negro);
+}

@@ -1,0 +1,6 @@
+/* ===== FOOTER ===== */
+.footer {
+  background-color: var(--color-negro);
+  color: var(--color-blanco);
+  padding: 50px 20px;
+}

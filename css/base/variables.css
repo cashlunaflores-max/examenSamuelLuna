@@ -1,0 +1,12 @@
+:root {
+  --color-fondo-claro: #f9f9f9;
+  --color-fondo-oscuro: #e6e6e6;
+  --color-texto: #333;
+  --color-blanco: #ffffff;
+  --color-negro: #000000;
+  --color-gris: gray;
+  --font-principal: Arial, sans-serif;
+  --max-width-contenedor: 1200px;
+  --padding-base: 20px;
+  --border-radius: 4px;
+}

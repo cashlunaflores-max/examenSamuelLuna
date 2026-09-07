@@ -3,46 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>examen</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <header>
-        <h1>Comercio</h1>
-        <nav>
-            <a href="#menu1">Menu 1</a>
-            <a href="#menu2">Menu 2</a>
-            <a href="#menu3">Menu 3</a>
-            <a href="#menu4">Menu 4</a>               
-            <button>Inscribirse</button>  
+    <header  class="header">
+        <h1 class="header__title">Comercio</h1>
+        <nav class="header__menu">
+            <ul>
+            <a class="header__link" href="#menu1">Menu 1</a>
+            <a class="header__link" href="#menu2">Menu 2</a>
+            <a class="header__link" href="#menu3">Menu 3</a>
+            <a class="header__link" href="#menu4">Menu 4</a>               
+            <button class="header__boton">Inscribirse</button>  
+            </ul>
         </nav>
     </header>
-    <main>
-        <section id="hero">
-        <h2>Listo para empezar?</h2>
-        <p>el texto es pequenio, no lo puedo leer</p>
-        <button>Iniciar prueba gratuita</button>
+    <main >
+        <section id="hero" class="hero">
+              <h2 class="hero__title">Listo para empezar?</h2>
+              <p class="hero__subtitle">el texto es pequenio, no lo puedo leer</p>
+              <button class="hero__boton">Iniciar prueba gratuita</button>
         </section>
-        <section id="boletin">
-            <h2>Unase a nuestro boletin</h2>
-            <p>Sucribase para recibir actualizaciones, acceder a ofertas exclusivas y mas.</p>
-            <label for="nombre">Nonbre: </label>
-            <input type="text" name="nombre" id="nombre">
-             <label for="email">Email: </label>
-            <input type="email" name="email" id="email">
-            <button>Suscribirse</button>
+        <section id="boletin" class="boletin">
+            <h2 class="boletin__title">Unase a nuestro boletin</h2>
+            <p class="boletin__subtitle">Sucribase para recibir actualizaciones, acceder a ofertas exclusivas y mas.</p>
+            <label class="boletin__label" for="nombre">Nonbre: </label>
+            <input  class="boletin__input" type="text" name="nombre" id="nombre">
+             <label class="boletin__label" for="email">Email: </label>
+            <input class="boletin__input"  type="email" name="email" id="email">
+            <button class="boletin__boton">Suscribirse</button>
         </section>
 
     </main>
-    <footer>
-        <h2>Comercio</h2>
-        <p>@2025-2026</p>
-        <p>Terminos-Privacidad</p>
-        <h3>Enlaces</h3>
-        <a href="">Productos</a>
-        <a href="">Caracteristicas</a>
-        <a href="">Recursos</a>
-        <a href="">Compañia</a>
+    <footer class="footer">
+        <aside class="aside">
+            <h2 class="informacion__title">Comercio</h2>
+             <p class="informacion__subtitle">@2025-2026</p>
+               <p class="informacion__subtitle">Terminos-Privacidad</p>
+        </aside>
+        <aside class="aside">
+            <h3 class="aside__title">Enlaces</h3>
+        <a class="aside__link" href="">Productos</a>
+        <a class="aside__link" href="">Caracteristicas</a>
+        <a class="aside__link" href="">Recursos</a>
+        <a class="aside__link" href="">Compañia</a>
+        </aside>
+        
     </footer>
 </body>
 </html>
